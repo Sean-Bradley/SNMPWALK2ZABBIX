@@ -1,3 +1,7 @@
+# Copyright Sean Bradley 2022
+# Repository https://github.com/Sean-Bradley/SNMPWALK2ZABBIX
+# LICENSE https://github.com/Sean-Bradley/SNMPWALK2ZABBIX/blob/main/LICENSE
+
 import sys
 import os
 import re

@@ -9,6 +9,6 @@ Remember, you got it for free, and it comes with no support or warranty. Read th
 Download
 
 ```bash
-wget
+wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpwalk2zabbix.py
 ```
 
