@@ -4,8 +4,8 @@
     <templates>
         <template>
             <uuid>612e6942006545ad90f9962eb1ccce14</uuid>
-            <template>Archer MR600</template>
-            <name>Archer MR600</name>
+            <template>Archer MR600 SNMP</template>
+            <name>Archer MR600 SNMP</name>
             <description>Template built by SNMPWALK2ZABBIX script from https://github.com/Sean-Bradley/SNMPWALK2ZABBIX</description>
             <groups>
                 <group>

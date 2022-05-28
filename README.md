@@ -76,8 +76,8 @@ E.g.,
     <templates>
         <template>
             <uuid>612e6942006545ad90f9962eb1ccce14</uuid>
-            <template>Archer MR600</template>
-            <name>Archer MR600</name>
+            <template>Archer MR600 SNMP</template>
+            <name>Archer MR600 SNMP</name>
             <description>Template built by SNMPWALK2ZABBIX script from https://github.com/Sean-Bradley/SNMPWALK2ZABBIX</description>
             <groups>
                 <group>
@@ -104,7 +104,7 @@ The XML file will be saved into the same folder as where the script was run. It 
 
 ![Directory Listing](img/ls.gif)
 
-Copy the saved XML file to a location on your computer where you can then import it into the Zabbix templates configuration using the UI.
+Download/Copy/SFTP the saved XML file to a location on your local computer where you can then import it into the Zabbix UI `Configurtation-->Templates-->[Import]`.
 
 ![Import Template](img/import.gif)
 
