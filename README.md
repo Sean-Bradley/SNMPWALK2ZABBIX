@@ -12,3 +12,8 @@ Download
 wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpwalk2zabbix.py
 ```
 
+Example usage
+
+```bash
+python3 snmpwalk2zabbix.py public 192.168.1.1 1.3.6.1.2.1
+```
