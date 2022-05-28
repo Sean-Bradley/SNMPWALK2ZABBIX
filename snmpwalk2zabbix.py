@@ -82,85 +82,86 @@ else:
                     data_type = getDataType(
                         oid_kvp[1].split(":")[0].strip().upper())
 
-                    value = oid_kvp[1].split(":")[1].strip()
+                    if not str(oid_kvp[1]) == "":
+                        value = oid_kvp[1].split(":")[1].strip()
 
-                    if oid_kvp[0].strip() == ".1.3.6.1.2.1.1.5.0":
-                        TEMPLATE_NAME = value
+                        if oid_kvp[0].strip() == ".1.3.6.1.2.1.1.5.0":
+                            TEMPLATE_NAME = value
 
-                    fullOidString = os.popen(
-                        'snmptranslate -Of ' + oid_kvp[0].strip()).read()
-                    if fullOidString is not None:
-                        fullOidStringParts = fullOidString.split(".")
+                        fullOidString = os.popen(
+                            'snmptranslate -Of ' + oid_kvp[0].strip()).read()
+                        if fullOidString is not None:
+                            fullOidStringParts = fullOidString.split(".")
 
-                    # restricts to only add tables and simple items
-                    if len(fullOidStringParts) < 13:
+                        # restricts to only add tables and simple items
+                        if len(fullOidStringParts) < 13:
 
-                        mibString = os.popen(
-                            'snmptranslate -Tz ' + oid_kvp[0].strip()).read()
-                        if mibString is not None:
-                            mib = mibString.strip()
+                            mibString = os.popen(
+                                'snmptranslate -Tz ' + oid_kvp[0].strip()).read()
+                            if mibString is not None:
+                                mib = mibString.strip()
 
-                        description = os.popen(
-                            'snmptranslate -Td ' + oid_kvp[0].strip()).read()
-                        if description is not None:
-                            groups = re.search(
-                                r'DESCRIPTION.*("[^"]*")', description)
-                            if groups is not None:
-                                if groups.group(1) is not None:
-                                    description = groups.group(1)
-                                    description = description.replace('"', '')
-                                    description = description.replace(
-                                        '\\n', '&#13;')
-                                    description = description.replace(
-                                        '<', '&lt;')
-                                    description = description.replace(
-                                        '>', '&gt;')
-                                    description = re.sub(
-                                        r"\s\s+", " ", description)
-                                    # print(description)
+                            description = os.popen(
+                                'snmptranslate -Td ' + oid_kvp[0].strip()).read()
+                            if description is not None:
+                                groups = re.search(
+                                    r'DESCRIPTION.*("[^"]*")', description)
+                                if groups is not None:
+                                    if groups.group(1) is not None:
+                                        description = groups.group(1)
+                                        description = description.replace('"', '')
+                                        description = description.replace(
+                                            '\\n', '&#13;')
+                                        description = description.replace(
+                                            '<', '&lt;')
+                                        description = description.replace(
+                                            '>', '&gt;')
+                                        description = re.sub(
+                                            r"\s\s+", " ", description)
+                                        # print(description)
 
-                        #print(oid_kvp[0].strip() + ", " + mib + ", " + value)
+                            #print(oid_kvp[0].strip() + ", " + mib + ", " + value)
 
-                        if fullOidStringParts[8].upper().endswith("TABLE"):
-                            # table = os.popen('snmptable -v 2c -c ' +
-                            #     COMMUNITY + ' ' + IP + ' ' + fullOidStringParts[8]).read()
-                            # print(table)
-                            # exit()
-
-                            name = mib.split("::")[0] + \
-                                "::" + fullOidStringParts[8]
-                            #name = fullOidStringParts[8]
-                            key = mib.replace("::", ".")
-                            #print(fullOidStringParts[8] + " " + fullOidStringParts[9] + " " + fullOidStringParts[10])
-                            if not name in DISCOVERY_RULES:
-                                DISCOVERY_RULES[name] = []
-                                LAST_PART_10 = ""
-
-                            if LAST_PART_10 != fullOidStringParts[10]:
-                                trimmed_oid = oid_kvp[0].strip()
-                                trimmed_oid = trimmed_oid.split(".")[:-1]
-                                trimmed_oid = ".".join(trimmed_oid)
-                                # print(oid_kvp[0].strip())
-                                # print(trimmed_oid)
+                            if fullOidStringParts[8].upper().endswith("TABLE"):
+                                # table = os.popen('snmptable -v 2c -c ' +
+                                #     COMMUNITY + ' ' + IP + ' ' + fullOidStringParts[8]).read()
+                                # print(table)
                                 # exit()
-                                item_protoype = [
-                                    fullOidStringParts[10], mib, key, trimmed_oid, data_type, description]
-                                LAST_PART_10 = fullOidStringParts[10]
-                                # print(name)
-                                # print(discovery_rule)
-                                # exit()
-                                DISCOVERY_RULES[name].append(item_protoype)
-                                print("ITEM_PROTOTYPE -> " + name + " -> " + fullOidStringParts[10] + " (" + (
-                                    "NUMERIC" if data_type is None else data_type) + ")")
-                        else:
-                            name = mib.split("::")[1]
-                            name = name.split(".")[0]
-                            key = mib.replace("::", ".")
-                            item = [name, mib, key, oid_kvp[0].strip(),
-                                    data_type, description]
-                            ITEMS.append(item)
-                            print("ITEM -> " + mib + " -> " + name + " (" +
-                                  ("NUMERIC" if data_type is None else data_type) + ")")
+
+                                name = mib.split("::")[0] + \
+                                    "::" + fullOidStringParts[8]
+                                #name = fullOidStringParts[8]
+                                key = mib.replace("::", ".")
+                                #print(fullOidStringParts[8] + " " + fullOidStringParts[9] + " " + fullOidStringParts[10])
+                                if not name in DISCOVERY_RULES:
+                                    DISCOVERY_RULES[name] = []
+                                    LAST_PART_10 = ""
+
+                                if LAST_PART_10 != fullOidStringParts[10]:
+                                    trimmed_oid = oid_kvp[0].strip()
+                                    trimmed_oid = trimmed_oid.split(".")[:-1]
+                                    trimmed_oid = ".".join(trimmed_oid)
+                                    # print(oid_kvp[0].strip())
+                                    # print(trimmed_oid)
+                                    # exit()
+                                    item_protoype = [
+                                        fullOidStringParts[10], mib, key, trimmed_oid, data_type, description]
+                                    LAST_PART_10 = fullOidStringParts[10]
+                                    # print(name)
+                                    # print(discovery_rule)
+                                    # exit()
+                                    DISCOVERY_RULES[name].append(item_protoype)
+                                    print("ITEM_PROTOTYPE -> " + name + " -> " + fullOidStringParts[10] + " (" + (
+                                        "NUMERIC" if data_type is None else data_type) + ")")
+                            else:
+                                name = mib.split("::")[1]
+                                name = name.split(".")[0]
+                                key = mib.replace("::", ".")
+                                item = [name, mib, key, oid_kvp[0].strip(),
+                                        data_type, description]
+                                ITEMS.append(item)
+                                print("ITEM -> " + mib + " -> " + name + " (" +
+                                    ("NUMERIC" if data_type is None else data_type) + ")")
 
     xml = """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <zabbix_export>

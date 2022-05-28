@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpw
 ## Requirements
 
 - Linux (Tested on Debian GNU/Linux 11 (bullseye)),
-- Python3
+- Python3 (use `python3 -V` to check)
 - SNMP (uses SNMPv2 to query)
 - SNMP-MIBS-Downloader
 - Any other custom or proprietary MIBs you may want to use while it tries to generate the item and discovery rule names and descriptions.
