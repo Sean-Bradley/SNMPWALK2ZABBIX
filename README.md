@@ -14,11 +14,17 @@ wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpw
 
 ## Requirements
 
-Linux (Tested on Ubuntu 20.04), Python3, SNMP, SNMP-MIBS-Downloader
+- Linux (Tested on Ubuntu 20.04),
+- Python3
+- SNMP (uses SNMPv2 to query)
+- SNMP-MIBS-Downloader
+- Any other custom or proprietry MIBs you may want to use.
+
+To install SNMP and snmp-mibs-downloader on Ubuntu 20.04,
 
 ```bash
 sudo apt update
-sudo apt install snmp snmp-mibs-downloader
+sudo apt install the snmp tools and snmp-mibs-downloader
 ```
 
 ## Usage
@@ -27,7 +33,9 @@ sudo apt install snmp snmp-mibs-downloader
 python3 snmpwalk2zabbix.py community-string IP-address root-OID
 ```
 
-`root-OID` indicates which OID to start creating items from. An OID to low, e.g, `1.3`, will result in a much larger template.
+- `community-string` : This is the v2c community name. Most systems default to use `public` as the community name.
+- `IP-address` : The IP addess of the SNMP device that returns a valid `snmpwalk` response.
+- `root-OID` : Indicates which OID to start creating items from. An OID to low, e.g, `1.3`, will result in a much larger template.
 
 ## Example
 
@@ -113,3 +121,7 @@ Note that `Items` and `Discovery rules` are created as **DISABLED** by default. 
 Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
 
 After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name of the item and discovery rule. And hopefully that will make the process a little easier for you to decide if you want it enabled or not.
+
+I say again. This script will NOT create a fully featured all bells and whistles perfect template exactly for your needs. You will need to edit the result to make it exactly whatever you want it to be.
+
+Remember, you got it for free, and it comes with no support or warranty. Read the [license](LICENSE).
