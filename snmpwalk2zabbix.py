@@ -170,7 +170,7 @@ else:
             <uuid>""" + uuid.uuid4().hex + """</uuid>
             <template>""" + TEMPLATE_NAME + """</template>
             <name>""" + TEMPLATE_NAME + """</name>
-            <description>Template built by snmpwalk2zabbix script</description>
+            <description>Template built by SNMPWALK2ZABBIX script from https://github.com/Sean-Bradley/SNMPWALK2ZABBIX</description>
             <groups>
                 <group>
                     <name>Templates</name>
