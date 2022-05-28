@@ -100,7 +100,11 @@ E.g.,
                 ... and many more XML nodes
 ```
 
-It saved the file, and you can now import it into Zabbix.
+The XML file will be saved into the same folder as where the script was run. It named my example output file as `template-Archer-MR600.xml`
+
+![Directory Listing](img/ls.gif)
+
+Copy the saved XML file to a location on your computer where you can then import it into the Zabbix templates configuration using the UI.
 
 ![Import Template](img/import.gif)
 
