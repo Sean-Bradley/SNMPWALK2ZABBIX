@@ -6,21 +6,24 @@ Create a Zabbix template from an SNMPWALK response.
 
 Remember, you got it for free, and it comes with no support or warranty. Read the [license](LICENSE).
 
+## Requirements
+
+- Linux (Tested on Debian GNU/Linux 11 (bullseye))
+- Python3 (use `python3 -V` to check)
+- SNMP (uses SNMPv2 to query)
+- SNMP-MIBS-Downloader
+- Any other custom or proprietary MIBs you may want to use while it tries to generate the item and discovery rule names and descriptions
+- Final template is **Zabbix 6 LTS** compatible
+
 ## Download
 
 ```bash
 wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpwalk2zabbix.py
 ```
 
-## Requirements
+## Install SNMP and SNMP-MIBS-Downloader
 
-- Linux (Tested on Debian GNU/Linux 11 (bullseye)),
-- Python3 (use `python3 -V` to check)
-- SNMP (uses SNMPv2 to query)
-- SNMP-MIBS-Downloader
-- Any other custom or proprietary MIBs you may want to use while it tries to generate the item and discovery rule names and descriptions.
-
-To install SNMP and snmp-mibs-downloader on Debian/Ubuntu,
+The server where you will run the script from, needs the SNMP tools and MIBs. You can get a good set of common MIBs when installing `snmp-mibs-downloader` on Debian/Ubuntu.
 
 ```bash
 sudo apt update
@@ -104,7 +107,7 @@ The XML file will be saved into the same folder as where the script was run. It 
 
 ![Directory Listing](img/ls.gif)
 
-Download/Copy/SFTP the saved XML file to a location on your local computer where you can then import it into the Zabbix UI `Configurtation-->Templates-->[Import]`.
+Download/Copy/SFTP the saved XML file to a location onto your local computer where you can then import it into the Zabbix UI `Configuration-->Templates-->[Import]`.
 
 ![Import Template](img/import.gif)
 
