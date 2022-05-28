@@ -24,7 +24,7 @@ To install SNMP and snmp-mibs-downloader on Debian/Ubuntu,
 
 ```bash
 sudo apt update
-sudo apt install the snmp tools and snmp-mibs-downloader
+sudo apt install snmp snmp-mibs-downloader
 ```
 
 ## Usage
