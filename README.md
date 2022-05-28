@@ -91,3 +91,25 @@ E.g.,
                 </item>
                 ... and many more XML nodes
 ```
+
+It saved the file, and you can now import it into Zabbix.
+
+![Import Template](img/import.gif)
+
+My example template for my Archer MR600 router was created with 81 items, and 2 discovery rules.
+
+![Template](img/template.gif)
+
+Some of the items.
+
+![Items](img/items.gif)
+
+The discovery rules with there item prototypes.
+
+![Discovery Rules](img/discovery-rules.gif)
+
+Note that `Items` and `Discovery rules` are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload Zabbix or your Host/SNMP device.
+
+Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
+
+After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name of the item and discovery rule. And hopefully that will make the process a little easier for you to decide if you want it enabled or not.
