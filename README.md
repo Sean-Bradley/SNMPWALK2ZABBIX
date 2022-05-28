@@ -14,13 +14,13 @@ wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpw
 
 ## Requirements
 
-- Linux (Tested on Ubuntu 20.04),
+- Linux (Tested on Debian GNU/Linux 11 (bullseye)),
 - Python3
 - SNMP (uses SNMPv2 to query)
 - SNMP-MIBS-Downloader
 - Any other custom or proprietry MIBs you may want to use.
 
-To install SNMP and snmp-mibs-downloader on Ubuntu 20.04,
+To install SNMP and snmp-mibs-downloader on Debian/Ubuntu,
 
 ```bash
 sudo apt update
