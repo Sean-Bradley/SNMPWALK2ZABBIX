@@ -82,7 +82,7 @@ else:
                     data_type = getDataType(
                         oid_kvp[1].split(":")[0].strip().upper())
 
-                    if not str(oid_kvp[1]) == "":
+                    if len(oid_kvp[1]) > 3:
                         value = oid_kvp[1].split(":")[1].strip()
 
                         if oid_kvp[0].strip() == ".1.3.6.1.2.1.1.5.0":
@@ -169,8 +169,8 @@ else:
     <templates>
         <template>
             <uuid>""" + uuid.uuid4().hex + """</uuid>
-            <template>""" + TEMPLATE_NAME + """</template>
-            <name>""" + TEMPLATE_NAME + """</name>
+            <template>""" + TEMPLATE_NAME + """ SNMP</template>
+            <name>""" + TEMPLATE_NAME + """ SNMP</name>
             <description>Template built by SNMPWALK2ZABBIX script from https://github.com/Sean-Bradley/SNMPWALK2ZABBIX</description>
             <groups>
                 <group>
