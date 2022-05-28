@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/Sean-Bradley/SNMPWALK2ZABBIX/master/snmpw
 - Python3
 - SNMP (uses SNMPv2 to query)
 - SNMP-MIBS-Downloader
-- Any other custom or proprietary MIBs you may want to use.
+- Any other custom or proprietary MIBs you may want to use while it tries to generate the item and discovery rule names and descriptions.
 
 To install SNMP and snmp-mibs-downloader on Debian/Ubuntu,
 
@@ -112,25 +112,25 @@ My example template for my Archer MR600 router was created with 81 items, and 2 
 
 ![Template](img/template.gif)
 
-Some items.
+Here are some of the items it found.
 
 ![Items](img/items.gif)
 
-The discovery rules with their item prototypes.
+Here are the discovery rules that it created with their item prototypes.
 
 ![Discovery Rules](img/discovery-rules.gif)
 
-Note that `Items` and `Discovery rules` are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload Zabbix or your Host/SNMP device.
+Note that the generated template is not perfect. It is up to me if I want to make it better. The items and discovery rules are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload your Zabbix server/proxy or your SNMP host/device.
 
 Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
 
-After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name of the item and discovery rule. And hopefully that will make the process a little easier for you to decide if you want it enabled or not.
+After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name and description of the item and discovery rule. And hopefully that will make the process of decided if you want it enabled or not, a little easier.
 
-When you assign your new template to a host in Zabbix. Make sure that your Zabbix server, or Zabbix proxy (if monitored by proxy) can also access your SNMP device. I have many Zabbix and SNMP tutorials at https://sbcode.net/zabbix/setup-snmp-host/.
+When you assign your new template to a host in Zabbix. Make sure that your Zabbix server, or Zabbix proxy (if monitored by proxy) can also access your SNMP host/device. I have many Zabbix and SNMP tutorials at https://sbcode.net/zabbix/setup-snmp-host/.
 
-Also note that despite the creation of the template requiring SNMPv2, you can actually still use the resulting template with a SNMPv3 configured host provided that you've configured your host correctly in Zabbix to use SNMPv3.
+Also note that despite the creation of the template requiring SNMPv2, you can actually still use the resulting template with a SNMPv3 configured host provided that you've configured your host correctly in Zabbix to use SNMPv3. I have some documentation about using SNMPv3 in Zabbix at https://sbcode.net/zabbix/snmpv3-host/
 
-I say again. This script will NOT create a fully featured all bells and whistles perfect template exactly for your needs. You will need to edit the result to make it exactly whatever you want it to be.
+I say again. This script will NOT automatically create a fully featured all bells and whistles perfect template exactly for all your needs. The resulting template may be very large and contain many useless items and discovery rules. You will need to edit the result to make it exactly whatever you want it to be.
 
 Remember, you got it for free, and it comes with no support or warranty. Read the [license](LICENSE).
 
