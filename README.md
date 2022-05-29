@@ -11,8 +11,8 @@ Remember, you got it for free, and it comes with no support or warranty. Read th
 - Linux (Tested on Debian GNU/Linux 11 (bullseye))
 - Python3 (use `python3 -V` to check)
 - SNMP (uses SNMPv2 to query)
-- SNMP-MIBS-Downloader
-- Any other custom or proprietary MIBs you may want to use while it tries to generate the item and discovery rule names and descriptions
+- SNMP-MIBS-Downloader, plus any other custom or proprietary MIBs you may want to use. It will use the MIB descriptions of OIDs as it generates the templates items and discovery rules.
+- A working SNMP device that responds to a `snmpwalk` command
 - Final template is **Zabbix 6 LTS** compatible
 
 ## Download
@@ -38,7 +38,7 @@ python3 snmpwalk2zabbix.py community-string IP-address root-OID
 
 - `community-string` : This is the v2c community name. Most systems default to use `public` as the community name.
 - `IP-address` : The IP address of the SNMP device that returns a valid `snmpwalk` response.
-- `root-OID` : Indicates which OID to start creating items from. An OID very low, e.g, `1`, will result in a much larger template, versus `1.3` or `1.3.6` or `1.3.6.1` or `1.3.6.1.2`, etc.
+- `root-OID` : Indicates which OID to start creating items from. An OID very low, e.g, `1`, will result in a much larger template, versus using `1.3` or `1.3.6` or `1.3.6.1` or `1.3.6.1.2` or `1.3.6.1.2.1`, etc.
 
 ## Example
 

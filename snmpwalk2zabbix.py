@@ -1,6 +1,22 @@
 # Copyright Sean Bradley 2022
 # Repository https://github.com/Sean-Bradley/SNMPWALK2ZABBIX
+#
 # LICENSE https://github.com/Sean-Bradley/SNMPWALK2ZABBIX/blob/main/LICENSE
+#
+# SNMPWALK2ZABBIX : Create a Zabbix template from an SNMPWALK response.
+# Copyright (C) 2022 Sean Bradley
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import sys
 import os
@@ -109,7 +125,8 @@ else:
                                 if groups is not None:
                                     if groups.group(1) is not None:
                                         description = groups.group(1)
-                                        description = description.replace('"', '')
+                                        description = description.replace(
+                                            '"', '')
                                         description = description.replace(
                                             '\\n', '&#13;')
                                         description = description.replace(
@@ -161,7 +178,7 @@ else:
                                         data_type, description]
                                 ITEMS.append(item)
                                 print("ITEM -> " + mib + " -> " + name + " (" +
-                                    ("NUMERIC" if data_type is None else data_type) + ")")
+                                      ("NUMERIC" if data_type is None else data_type) + ")")
 
     xml = """<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <zabbix_export>
