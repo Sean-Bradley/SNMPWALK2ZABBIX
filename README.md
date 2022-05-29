@@ -2,17 +2,15 @@
 
 Create a Zabbix template from an SNMPWALK response.
 
-**NOTE** that this will **NOT** create a fully featured all bells and whistles perfect template exactly for your needs. You will need to edit the result to make it exactly whatever you want it to be.
-
-Remember, you got it for free, and it comes with no support or warranty. Read the [license](LICENSE).
+> **NOTE** that this script will **NOT** automatically create a fully featured all bells and whistles perfect template exactly for your needs. It blindly reads the `snmpwalk` response and tries to create items and discovery rules from what ever it gets back. You will need to edit the result to make it exactly whatever you need it to be. The script comes with no support or warranty. Read the [license](LICENSE).
 
 ## Requirements
 
-- Linux (Tested on Debian GNU/Linux 11 (bullseye))
+- Linux (Tested on Debian 11 and Ubuntu 20.04)
 - Python3 (use `python3 -V` to check)
 - SNMP (uses SNMPv2 to query)
 - SNMP-MIBS-Downloader, plus any other custom or proprietary MIBs you may want to use. It will use the MIB descriptions of OIDs as it generates the templates items and discovery rules.
-- A working SNMP device that responds to a `snmpwalk` command
+- A working SNMP device that responds to an `snmpwalk` command
 - Final template is **Zabbix 6 LTS** compatible
 
 ## Download
@@ -123,7 +121,7 @@ Here are the discovery rules that it created with their item prototypes.
 
 ![Discovery Rules](img/discovery-rules.gif)
 
-Note that the generated template is not perfect. It is up to me if I want to make it better. The items and discovery rules are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload your Zabbix server/proxy or your SNMP host/device.
+Note that the generated template is not perfect. It is up to you if you want to make it better. The items and discovery rules are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload your Zabbix server/proxy or your SNMP host/device.
 
 Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
 
@@ -131,12 +129,14 @@ After importing the template, you should review which items and discovery rules 
 
 When you assign your new template to a host in Zabbix. Make sure that your Zabbix server, or Zabbix proxy (if monitored by proxy) can also access your SNMP host/device. I have many Zabbix and SNMP tutorials at https://sbcode.net/zabbix/setup-snmp-host/.
 
-Also note that despite the creation of the template requiring SNMPv2, you can actually still use the resulting template with a SNMPv3 configured host provided that you've configured your host correctly in Zabbix to use SNMPv3. I have some documentation about using SNMPv3 in Zabbix at https://sbcode.net/zabbix/snmpv3-host/
+Also note that despite the creation of the template requiring SNMPv2, you can actually still use the resulting template with an SNMPv3 configured host provided that you've configured your host correctly in Zabbix to use SNMPv3. I have some documentation about using SNMPv3 in Zabbix at https://sbcode.net/zabbix/snmpv3-host/
 
-I say again. This script will NOT automatically create a fully featured all bells and whistles perfect template exactly for all your needs. The resulting template may be very large and contain many useless items and discovery rules. You will need to edit the result to make it exactly whatever you want it to be.
-
-Remember, you got it for free, and it comes with no support or warranty. Read the [license](LICENSE).
+I say again. This script will NOT automatically create a fully featured all bells and whistles perfect template exactly for all your needs. The resulting template may be very large and contain many useless items and discovery rules. You will need to edit the result to make it exactly whatever you want it to be. This script comes with no warranty. Don't forget to read the [license](LICENSE).
 
 If you are interested in learning Zabbix to a high level, then I run courses on it. Visit https://sbcode.net/zabbix/ for more information and discount coupons.
 
 Sean
+
+## Videos
+
+[![Configure an SNMPv3 Host in Zabbix 6 LTS](https://img.youtube.com/vi/l5kUSHDykoA/0.jpg)](https://www.youtube.com/watch?v=l5kUSHDykoA&list=PLKWUX7aMnlEJhX49I64G3A-v8pFTduome)
