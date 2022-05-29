@@ -3,7 +3,7 @@
     <version>6.0</version>
     <templates>
         <template>
-            <uuid>612e6942006545ad90f9962eb1ccce14</uuid>
+            <uuid>05f395a1e89349d8910d890a96213f4c</uuid>
             <template>Archer MR600 SNMP</template>
             <name>Archer MR600 SNMP</name>
             <description>Template built by SNMPWALK2ZABBIX script from https://github.com/Sean-Bradley/SNMPWALK2ZABBIX</description>
@@ -14,7 +14,7 @@
             </groups>
             <items>                  
                 <item>
-                    <uuid>5d438a37f38f484fa387a6eb455113fd</uuid>
+                    <uuid>313fb3410fc644f29ac632839d700ee0</uuid>
                     <name>sysDescr</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.1.0</snmp_oid>
@@ -26,7 +26,7 @@
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>d398b96a269c4c2eb19788be2f5499a4</uuid>
+                    <uuid>71863c01a78e4ac0ab2cf3cd6f5b0ae8</uuid>
                     <name>sysObjectID</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.2.0</snmp_oid>
@@ -38,7 +38,7 @@
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>da302c9bca3b4d37a16d20604292a1a7</uuid>
+                    <uuid>0c6f75907b8f4e59a086af237df371c9</uuid>
                     <name>sysUpTimeInstance</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.3.0</snmp_oid>
@@ -53,7 +53,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>60445d8f7a384ee3b69bad3107d9df7c</uuid>
+                    <uuid>9765ab2748fe45b0b0ef9d46a992958b</uuid>
                     <name>sysContact</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.4.0</snmp_oid>
@@ -65,7 +65,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>e2765118ec0942d186d224db9adce79b</uuid>
+                    <uuid>04c9c49f56034995ac71211eff7937da</uuid>
                     <name>sysName</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.5.0</snmp_oid>
@@ -77,7 +77,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>47d84e3eb42f43c3b12dcb228c0877a2</uuid>
+                    <uuid>6901fea019ed466884e49547e5b9cccf</uuid>
                     <name>sysLocation</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.6.0</snmp_oid>
@@ -89,7 +89,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>6567a415f94549219167e73beb71a06e</uuid>
+                    <uuid>2d49fdec1e294b0f8e2a392f757d9675</uuid>
                     <name>sysServices</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.7.0</snmp_oid>
@@ -101,7 +101,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>463f004cdbdd4c219730e2fd24ccb06b</uuid>
+                    <uuid>c3bbe1c90a1d44e7b0bff19268de3511</uuid>
                     <name>sysORLastChange</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.1.8.0</snmp_oid>
@@ -112,7 +112,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>31878036fe9d4c0eb1e89f3d6a1d055f</uuid>
+                    <uuid>4492dbf62e5748d29263b43b520e5d99</uuid>
                     <name>ifNumber</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.2.1.0</snmp_oid>
@@ -124,7 +124,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>199f7a7bf1cb491fb99f37163ccfc774</uuid>
+                    <uuid>28e0e345386e4b298f79ec17886f1cff</uuid>
                     <name>ipForwarding</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.1.0</snmp_oid>
@@ -136,7 +136,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>9cd7cb0e8d73421492fa845f55a5cb7b</uuid>
+                    <uuid>527eaf0dd69e44908bea0068ea2660f7</uuid>
                     <name>ipDefaultTTL</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.2.0</snmp_oid>
@@ -148,7 +148,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>e5c227a2a46d456ebd88c0066a1c4883</uuid>
+                    <uuid>c1df94623359478db1d6ac61f7ad4fd8</uuid>
                     <name>ipInReceives</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.3.0</snmp_oid>
@@ -159,7 +159,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>58cdd1e0e2064f6680b0cfdc5bab09e2</uuid>
+                    <uuid>642b11d0a1d34ab5929a09f913c615cb</uuid>
                     <name>ipInHdrErrors</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.4.0</snmp_oid>
@@ -170,7 +170,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>77d5f3a1fd844ebdbc2893107f70dbe7</uuid>
+                    <uuid>b7a05d8d95a54d749dfc1ac90c3f5f78</uuid>
                     <name>ipInAddrErrors</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.5.0</snmp_oid>
@@ -181,7 +181,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>90c242740ebd42b48bf073fd81b71f97</uuid>
+                    <uuid>c30c5b3cc4004e9582e3d8288c199d43</uuid>
                     <name>ipForwDatagrams</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.6.0</snmp_oid>
@@ -192,7 +192,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>f3f619f609d74ebe863057cae3ecc12f</uuid>
+                    <uuid>123e9d82169f404ea0ecf7bfd1c7bd84</uuid>
                     <name>ipInUnknownProtos</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.7.0</snmp_oid>
@@ -203,7 +203,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>2959752cec63489c9c20eb43f2ac6ad4</uuid>
+                    <uuid>6c0ac0a32673466ba0afe41a2ff0ba79</uuid>
                     <name>ipInDiscards</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.8.0</snmp_oid>
@@ -214,7 +214,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>22f912e1944c4ea5bf712fc514941c2b</uuid>
+                    <uuid>2fa1ba9c37e44632bc72d150ca409140</uuid>
                     <name>ipInDelivers</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.9.0</snmp_oid>
@@ -225,7 +225,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>b246329c36444eaab72fffbfdd6f29b6</uuid>
+                    <uuid>8ff280addb2b467092a9507ba5683bf4</uuid>
                     <name>ipOutRequests</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.10.0</snmp_oid>
@@ -236,7 +236,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>98205c817216438b9885fc334d30e55a</uuid>
+                    <uuid>a976fa71f9714f2b90de70596d74f034</uuid>
                     <name>ipOutDiscards</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.11.0</snmp_oid>
@@ -247,7 +247,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>4c6a3762a6ba4c348709bd108b9f4a4c</uuid>
+                    <uuid>2ef67fb6b7ee4f21989b98151b98b03d</uuid>
                     <name>ipOutNoRoutes</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.12.0</snmp_oid>
@@ -258,7 +258,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>42b704ddbcf6421d9fd6f46de434e5a6</uuid>
+                    <uuid>f287de47f40a484aa88ec8f9b7bcaea0</uuid>
                     <name>ipReasmTimeout</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.13.0</snmp_oid>
@@ -270,7 +270,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>b3b251a27eda49478fb7cfb5447a696a</uuid>
+                    <uuid>690dfff3f7c24e2488d9b98d436229be</uuid>
                     <name>ipReasmReqds</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.14.0</snmp_oid>
@@ -281,7 +281,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>1623b2a01eb8490f8ad4ff738dadd9b8</uuid>
+                    <uuid>7020d8e223344b0ca740c9471af2a68e</uuid>
                     <name>ipReasmOKs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.15.0</snmp_oid>
@@ -292,7 +292,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>e201cff698884593b628440b984dddcb</uuid>
+                    <uuid>36b9bd1f0ab148faa52b5e7dfc99611b</uuid>
                     <name>ipReasmFails</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.16.0</snmp_oid>
@@ -303,7 +303,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>5f8a074903744b8db297cbe30afd7cf6</uuid>
+                    <uuid>21dcaab67bc84a9881624bb2706a2b75</uuid>
                     <name>ipFragOKs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.17.0</snmp_oid>
@@ -314,7 +314,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>0c1f60d254ef4ef4b2be72ac8c77b791</uuid>
+                    <uuid>52c96aba358446d284ae8253b87fca87</uuid>
                     <name>ipFragFails</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.18.0</snmp_oid>
@@ -325,7 +325,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>41da4f6c739c4b8b9db4c758b5497353</uuid>
+                    <uuid>72fe05115f0b4814a1acc952059341a0</uuid>
                     <name>ipFragCreates</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.19.0</snmp_oid>
@@ -336,7 +336,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>17be522f88ef49c88e393bab9c2aff41</uuid>
+                    <uuid>b126776931404ca395c8220b7142694b</uuid>
                     <name>ipRoutingDiscards</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.4.23.0</snmp_oid>
@@ -347,7 +347,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>f07f7c9ceb27486da24a4094bf6cfd93</uuid>
+                    <uuid>d57c0ad5640342688dc30e342007db44</uuid>
                     <name>icmpInMsgs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.1.0</snmp_oid>
@@ -358,7 +358,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>25ce340f6f6a428b892734ba6f54367a</uuid>
+                    <uuid>56d2e910cb15451894ae23a33c6f08ed</uuid>
                     <name>icmpInErrors</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.2.0</snmp_oid>
@@ -369,7 +369,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>0722212043c5406b91d98c5a96f5492f</uuid>
+                    <uuid>840f2614d2fa4099a4deef7ae968bad6</uuid>
                     <name>icmpInDestUnreachs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.3.0</snmp_oid>
@@ -380,7 +380,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>bffe8b4e24324024b4d616da66a5544f</uuid>
+                    <uuid>f7123fba757a4285941059db18127214</uuid>
                     <name>icmpInTimeExcds</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.4.0</snmp_oid>
@@ -391,7 +391,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>4cb79717ae344c64878e3f7bf944d46a</uuid>
+                    <uuid>8030b20cb2d94b5895bf3bc515797f20</uuid>
                     <name>icmpInParmProbs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.5.0</snmp_oid>
@@ -402,7 +402,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>50e52a74c33b45819e1a201b05b99fdc</uuid>
+                    <uuid>391329aeedd64fbe89ac1d4f1e587ef9</uuid>
                     <name>icmpInSrcQuenchs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.6.0</snmp_oid>
@@ -413,7 +413,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>588a31ca4b4e4dbead4ebdf0cb27a2ad</uuid>
+                    <uuid>60a2eba4885740bbb57ccb4d251d7c8b</uuid>
                     <name>icmpInRedirects</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.7.0</snmp_oid>
@@ -424,7 +424,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>dff4f502cd6c43a891a759a6e3b424d5</uuid>
+                    <uuid>5f07c511007046c8acd4dedfb1c71e33</uuid>
                     <name>icmpInEchos</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.8.0</snmp_oid>
@@ -435,7 +435,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>3a04320a7aa149219b088268533164ee</uuid>
+                    <uuid>96b4383d14c348a587fecb5f0a41d4c4</uuid>
                     <name>icmpInEchoReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.9.0</snmp_oid>
@@ -446,7 +446,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>46d9332923bb47869fce1acd254b3e8a</uuid>
+                    <uuid>5cc9fb0894f549d8a0d98fa36423c020</uuid>
                     <name>icmpInTimestamps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.10.0</snmp_oid>
@@ -457,7 +457,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>0450c2ab5abb43c58ebfaa41a9a4d6b1</uuid>
+                    <uuid>5bbff1029cf04ceabca19d59abf8aa19</uuid>
                     <name>icmpInTimestampReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.11.0</snmp_oid>
@@ -468,7 +468,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>cf99cc593310431d8a153177e6946de2</uuid>
+                    <uuid>c2c081d907f943ae8e604eedc1d28d81</uuid>
                     <name>icmpInAddrMasks</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.12.0</snmp_oid>
@@ -479,7 +479,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>1c70c536ff3f428492b9d60291d08a54</uuid>
+                    <uuid>5e62c68a7de24a4faf4e6dc2d7b731f9</uuid>
                     <name>icmpInAddrMaskReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.13.0</snmp_oid>
@@ -490,7 +490,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>635d8ac641a44cd4b734a090896405d0</uuid>
+                    <uuid>83f34bf68ec24a45ad2a5108b88990fe</uuid>
                     <name>icmpOutMsgs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.14.0</snmp_oid>
@@ -501,7 +501,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>9979fc2ddbda4bf79f65f00b02df09b7</uuid>
+                    <uuid>d743ca6914294f169afcdfa8c7ddd23b</uuid>
                     <name>icmpOutErrors</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.15.0</snmp_oid>
@@ -512,7 +512,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>29d2865730a5491da27dc29f57be581c</uuid>
+                    <uuid>69d2ea0a6bf64081a9adfff9a31feb45</uuid>
                     <name>icmpOutDestUnreachs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.16.0</snmp_oid>
@@ -523,7 +523,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>a35f3705cf5f4d228171393f0eefc486</uuid>
+                    <uuid>132283e681584a19a8c053e3acda6471</uuid>
                     <name>icmpOutTimeExcds</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.17.0</snmp_oid>
@@ -534,7 +534,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>1f4ae51a60244734ae0da4e39841a66e</uuid>
+                    <uuid>e50683d6b73747dc85a1bccb4901f07d</uuid>
                     <name>icmpOutParmProbs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.18.0</snmp_oid>
@@ -545,7 +545,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>0e763a98aa8e4fbcb583cd5c29e38d02</uuid>
+                    <uuid>ca02dbd2e94c43149dff2cf0f0de7f83</uuid>
                     <name>icmpOutSrcQuenchs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.19.0</snmp_oid>
@@ -556,7 +556,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>ca1f12a2bdaf45738181ccf4ce4df1d8</uuid>
+                    <uuid>ebcb8f85417146f48631f5a6324330d5</uuid>
                     <name>icmpOutRedirects</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.20.0</snmp_oid>
@@ -567,7 +567,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>c990b9876b784378b86986dcc99375c6</uuid>
+                    <uuid>37954d7633c340ad8540fe39ea3e85a9</uuid>
                     <name>icmpOutEchos</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.21.0</snmp_oid>
@@ -578,7 +578,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>3b5410694c6048a8bbf476fbd24017c2</uuid>
+                    <uuid>12ce70126bb14418a9bd64322ee924ef</uuid>
                     <name>icmpOutEchoReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.22.0</snmp_oid>
@@ -589,7 +589,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>202f96a8e48441ff9bae31f16369c299</uuid>
+                    <uuid>d8f1217599b540eb88db249010338351</uuid>
                     <name>icmpOutTimestamps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.23.0</snmp_oid>
@@ -600,7 +600,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>4c09a94fcfb641b7942ed5dd882c93c6</uuid>
+                    <uuid>a891cfd28fc94eda802dec2d55013a9e</uuid>
                     <name>icmpOutTimestampReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.24.0</snmp_oid>
@@ -611,7 +611,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>df4b029ac3ea40ff9b8df5a585caa0f1</uuid>
+                    <uuid>ecbc31e31a9d4786b15d4e5e3c9b939e</uuid>
                     <name>icmpOutAddrMasks</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.25.0</snmp_oid>
@@ -622,7 +622,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>9ad5018f8aaf4febb298e848dbe0a0fb</uuid>
+                    <uuid>cf0351bdcb564335b480c025c55e2c7b</uuid>
                     <name>icmpOutAddrMaskReps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.5.26.0</snmp_oid>
@@ -633,7 +633,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>c9f2b72bbe8a457991bcfca4feee8ca1</uuid>
+                    <uuid>dfa487995b954279a69b7943af96e403</uuid>
                     <name>tcpRtoAlgorithm</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.1.0</snmp_oid>
@@ -645,7 +645,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>faa7ac9ba65f4997bf3386e405ba8ee4</uuid>
+                    <uuid>1b959da9612e4e7699399b8c12d2441b</uuid>
                     <name>tcpRtoMin</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.2.0</snmp_oid>
@@ -657,7 +657,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>41a6b35aadb04aab89f3475fc00b1b88</uuid>
+                    <uuid>39a58b045a5a4d21a5dbc395371a01b5</uuid>
                     <name>tcpRtoMax</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.3.0</snmp_oid>
@@ -669,7 +669,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>37f4c0a185664c84af2e4aed6f13d8a3</uuid>
+                    <uuid>2a6ae0bbdd544a9094cef253dfcc17d5</uuid>
                     <name>tcpMaxConn</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.4.0</snmp_oid>
@@ -681,7 +681,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>8ca095abbee2404cb175ce0d115a9ef9</uuid>
+                    <uuid>4a4a152fa8c74166b118711c885381ac</uuid>
                     <name>tcpActiveOpens</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.5.0</snmp_oid>
@@ -692,7 +692,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>f71de6d8ec8849049d097602fba9f11d</uuid>
+                    <uuid>05e548b98b6944fdb120fbb505135b4d</uuid>
                     <name>tcpPassiveOpens</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.6.0</snmp_oid>
@@ -703,7 +703,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>c36127077ddd4471b1fe9277ff7e32c0</uuid>
+                    <uuid>9f64acf57873483fad45020e3de22c2f</uuid>
                     <name>tcpAttemptFails</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.7.0</snmp_oid>
@@ -714,7 +714,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>56db85800b0e4f82b17b2f23688891eb</uuid>
+                    <uuid>61527121680e452ebd2ff2b98d86d9c6</uuid>
                     <name>tcpEstabResets</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.8.0</snmp_oid>
@@ -725,7 +725,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>5b9c79c9d7434ddda3c5f8c6ad2be56b</uuid>
+                    <uuid>2edb0064657b4837b2ae36d47a4b82a1</uuid>
                     <name>tcpCurrEstab</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.9.0</snmp_oid>
@@ -737,7 +737,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>2ddec380d40448318998a3651e351355</uuid>
+                    <uuid>2d8723becdcf48c99b951df548f2a13d</uuid>
                     <name>tcpInSegs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.10.0</snmp_oid>
@@ -748,7 +748,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>f70eb4dab13f4dcda0eb71fb5dc0d4b5</uuid>
+                    <uuid>fe78093f059242ba91323253f30a12b6</uuid>
                     <name>tcpOutSegs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.11.0</snmp_oid>
@@ -759,7 +759,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>b73577be9ef54e8893826fbd564918dc</uuid>
+                    <uuid>2e5e43ac53344918b51e75cb363da954</uuid>
                     <name>tcpRetransSegs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.12.0</snmp_oid>
@@ -770,7 +770,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>ad5dedcaf48749d68df730b689157f06</uuid>
+                    <uuid>42dc72b282ce4718b320fb5a6ae50261</uuid>
                     <name>tcpInErrs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.14.0</snmp_oid>
@@ -781,7 +781,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>86a24dde28e34b619cbb219deb0ece42</uuid>
+                    <uuid>f25aa2a22e434948a986eb6896900507</uuid>
                     <name>tcpOutRsts</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.6.15.0</snmp_oid>
@@ -792,7 +792,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>b62e5c867cdb4c80ae13b1af9d8a2363</uuid>
+                    <uuid>791ab4c3e1a74705b60c8cb93896cce7</uuid>
                     <name>udpInDatagrams</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.7.1.0</snmp_oid>
@@ -803,7 +803,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>7a92593d84434161a35ccf1e98dffe91</uuid>
+                    <uuid>25bdb7ae8106411db29a6e8c6baa8a6f</uuid>
                     <name>udpNoPorts</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.7.2.0</snmp_oid>
@@ -814,7 +814,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>cb525950ced5460fb56a5f1b22a4a148</uuid>
+                    <uuid>cb3aea313bd34de0ac38f3f0a56b5263</uuid>
                     <name>udpInErrors</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.7.3.0</snmp_oid>
@@ -825,7 +825,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>8e63253bf0854e5ebe3ff3dc9b33ef91</uuid>
+                    <uuid>7ea5820ee3c743b3980e5e1cda7505e8</uuid>
                     <name>udpOutDatagrams</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.7.4.0</snmp_oid>
@@ -836,7 +836,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>42484798d2ef44f284aaf298f5d71fd2</uuid>
+                    <uuid>39fee70d683e48f2a915f649bc35625a</uuid>
                     <name>snmpInPkts</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.1.0</snmp_oid>
@@ -847,7 +847,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>8ea54d95a0c04e588a462ecc47cbbc73</uuid>
+                    <uuid>7be6f5aba9104f40949cc243f8a4ad02</uuid>
                     <name>snmpInBadVersions</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.3.0</snmp_oid>
@@ -858,7 +858,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>a889bb80c9a94d73a5a1fbe808fe67d9</uuid>
+                    <uuid>604af623421640269b201b8a6581df8b</uuid>
                     <name>snmpInBadCommunityNames</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.4.0</snmp_oid>
@@ -869,7 +869,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>28e01f0c81324c7bab5c8be47e2affe7</uuid>
+                    <uuid>dc603e19255842848edea5161c366947</uuid>
                     <name>snmpInBadCommunityUses</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.5.0</snmp_oid>
@@ -880,7 +880,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>3d9d4d1f29d747aba17a4a6e320fa95a</uuid>
+                    <uuid>e05a84be82e845338d2353fd8d87d8a5</uuid>
                     <name>snmpInASNParseErrs</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.6.0</snmp_oid>
@@ -891,7 +891,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>200ab0aff8c647528889fa36a3416a5b</uuid>
+                    <uuid>5900f23a12b94f9d92377c43b59079ac</uuid>
                     <name>snmpEnableAuthenTraps</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.30.0</snmp_oid>
@@ -903,7 +903,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>eb9536c930114c0597dd1d33f8cdbc5e</uuid>
+                    <uuid>4c654190405f4d12aa11827ae24ec0aa</uuid>
                     <name>snmpSilentDrops</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.31.0</snmp_oid>
@@ -914,7 +914,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <status>DISABLED</status>
                 </item>                  
                 <item>
-                    <uuid>8cadb90d0a4044738be3e87bc4607733</uuid>
+                    <uuid>ce23685b3b3b47eea56f0596492ff31e</uuid>
                     <name>snmpProxyDrops</name>
                     <type>SNMP_AGENT</type>
                     <snmp_oid>.1.3.6.1.2.1.11.32.0</snmp_oid>
@@ -927,7 +927,7 @@ sysUpTimeInstance OBJECT-TYPE
             </items>
             <discovery_rules>
                 <discovery_rule>
-                    <uuid>49929e6d99364dca910b3aec0363920d</uuid>
+                    <uuid>2080e59dedf24f799716322eb32f4a6a</uuid>
                     <name>sysORTable</name>
                     <delay>3600</delay>
                     <key>SNMPv2-MIB.sysORTable</key>
@@ -935,7 +935,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <type>SNMP_AGENT</type>
                     <item_prototypes>
                         <item_prototype>
-                            <uuid>f05e8bebf3704b5cb58f532a1f38bf02</uuid>
+                            <uuid>9b827536571f47cb98a92267e8fdf4e0</uuid>
                             <name>sysORID.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.1.9.1.2.{#SNMPINDEX}</snmp_oid>
@@ -946,7 +946,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>An authoritative identification of a capabilities statement with respect to various MIB modules supported by the local SNMP application acting as a command responder.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>9fa4b2080b3f4bbabf9e2ac69391a895</uuid>
+                            <uuid>8d2b94e4e2af423681b99963139fa1f1</uuid>
                             <name>sysORDescr.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.1.9.1.3.{#SNMPINDEX}</snmp_oid>
@@ -957,7 +957,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>A textual description of the capabilities identified by the corresponding instance of sysORID.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>43dbe83c564848daabc08eb4ecfca222</uuid>
+                            <uuid>d835826daed4435a9f21fdeeba659d40</uuid>
                             <name>sysORUpTime.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.1.9.1.4.{#SNMPINDEX}</snmp_oid>
@@ -970,7 +970,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <snmp_oid>discovery[{#SYSORID},.1.3.6.1.2.1.1.9.1.2,{#SYSORDESCR},.1.3.6.1.2.1.1.9.1.3,{#SYSORUPTIME},.1.3.6.1.2.1.1.9.1.4]</snmp_oid>
                 </discovery_rule>
                 <discovery_rule>
-                    <uuid>1fa1613ee1ff447c881a496ed07bba4a</uuid>
+                    <uuid>8d0decccfbec4efabc36681581a5d335</uuid>
                     <name>ifTable</name>
                     <delay>3600</delay>
                     <key>IF-MIB.ifTable</key>
@@ -978,7 +978,7 @@ sysUpTimeInstance OBJECT-TYPE
                     <type>SNMP_AGENT</type>
                     <item_prototypes>
                         <item_prototype>
-                            <uuid>4949d197cf9c40709446b7d96a739841</uuid>
+                            <uuid>32d8dadaec7144459140468e014d4522</uuid>
                             <name>ifIndex.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.1.{#SNMPINDEX}</snmp_oid>
@@ -989,7 +989,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>A unique value, greater than zero, for each interface. It is recommended that values are assigned contiguously starting from 1. The value for each interface sub-layer must remain constant at least from one re-initialization of the entity's network management system to the next re- initialization.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>7a92d6d9db4f40cc9a26e3feeea93f47</uuid>
+                            <uuid>cd24c1b281d842f59fffa2602ad8a9b1</uuid>
                             <name>ifDescr.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.2.{#SNMPINDEX}</snmp_oid>
@@ -1000,7 +1000,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>A textual string containing information about the interface. This string should include the name of the manufacturer, the product name and the version of the interface hardware/software.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>52c86acb6ddb48f99d2854e5d7bc7f01</uuid>
+                            <uuid>fca3857e530c4683b6c74d7a176190b8</uuid>
                             <name>ifType.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.3.{#SNMPINDEX}</snmp_oid>
@@ -1011,7 +1011,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The type of interface. Additional values for ifType are assigned by the Internet Assigned Numbers Authority (IANA), through updating the syntax of the IANAifType textual convention.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>3be4631a731c478aa29d0d1222117617</uuid>
+                            <uuid>c0d2fe3b59af42afa6f5df91e055e782</uuid>
                             <name>ifMtu.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.4.{#SNMPINDEX}</snmp_oid>
@@ -1022,7 +1022,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The size of the largest packet which can be sent/received on the interface, specified in octets. For interfaces that are used for transmitting network datagrams, this is the size of the largest network datagram that can be sent on the interface.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>a2f9822a3afc44dfb5905b5864020f8c</uuid>
+                            <uuid>e55cdfd59e4b4e61b670db4d74659dff</uuid>
                             <name>ifSpeed.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.5.{#SNMPINDEX}</snmp_oid>
@@ -1032,7 +1032,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>An estimate of the interface's current bandwidth in bits per second. For interfaces which do not vary in bandwidth or for those where no accurate estimation can be made, this object should contain the nominal bandwidth. If the bandwidth of the interface is greater than the maximum value reportable by this object then this object should report its maximum value (4,294,967,295) and ifHighSpeed must be used to report the interace's speed. For a sub-layer which has no concept of bandwidth, this object should be zero.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>c201a11e8df24aae930576ba8b785206</uuid>
+                            <uuid>55b908d602b94f7bb5ddb05fd9b5f467</uuid>
                             <name>ifPhysAddress.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.6.{#SNMPINDEX}</snmp_oid>
@@ -1043,7 +1043,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The interface's address at its protocol sub-layer. For example, for an 802.x interface, this object normally contains a MAC address. The interface's media-specific MIB must define the bit and byte ordering and the format of the value of this object. For interfaces which do not have such an address (e.g., a serial line), this object should contain an octet string of zero length.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>e9a6a7256a4b488f837f02529e1ffd59</uuid>
+                            <uuid>bf6327e318a648d4a66132d336260667</uuid>
                             <name>ifAdminStatus.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.7.{#SNMPINDEX}</snmp_oid>
@@ -1054,7 +1054,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The desired state of the interface. The testing(3) state indicates that no operational packets can be passed. When a managed system initializes, all interfaces start with ifAdminStatus in the down(2) state. As a result of either explicit management action or per configuration information retained by the managed system, ifAdminStatus is then changed to either the up(1) or testing(3) states (or remains in the down(2) state).</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>e6b9ca337755420eac758c79187ba181</uuid>
+                            <uuid>d4e19f30c09f4c8ca5994df5c25697fb</uuid>
                             <name>ifOperStatus.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.8.{#SNMPINDEX}</snmp_oid>
@@ -1065,7 +1065,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The current operational state of the interface. The testing(3) state indicates that no operational packets can be passed. If ifAdminStatus is down(2) then ifOperStatus should be down(2). If ifAdminStatus is changed to up(1) then ifOperStatus should change to up(1) if the interface is ready to transmit and receive network traffic; it should change to dormant(5) if the interface is waiting for external actions (such as a serial line waiting for an incoming connection); it should remain in the down(2) state if and only if there is a fault that prevents it from going to the up(1) state; it should remain in the notPresent(6) state if the interface has missing (typically, hardware) components.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>911f7002417340bc81fa29dea6a9df5c</uuid>
+                            <uuid>65eac0061bc44f56ba50d8f88aac2f06</uuid>
                             <name>ifLastChange.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.9.{#SNMPINDEX}</snmp_oid>
@@ -1075,7 +1075,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The value of sysUpTime at the time the interface entered its current operational state. If the current state was entered prior to the last re-initialization of the local network management subsystem, then this object contains a zero value.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>2ee78e0a553c4e1b9cc2b45a012e92d1</uuid>
+                            <uuid>a5c293b2852343d8b40b7e7240c8ea7f</uuid>
                             <name>ifInOctets.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.10.{#SNMPINDEX}</snmp_oid>
@@ -1085,7 +1085,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The total number of octets received on the interface, including framing characters. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>168ac2ad9d534b3e91b5cb8a33b4f862</uuid>
+                            <uuid>55ef7507ca3741d4bc49828c4cc846a4</uuid>
                             <name>ifInUcastPkts.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.11.{#SNMPINDEX}</snmp_oid>
@@ -1095,7 +1095,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The number of packets, delivered by this sub-layer to a higher (sub-)layer, which were not addressed to a multicast or broadcast address at this sub-layer. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>a5381a51b69d4bbb8767bf61a2231cc0</uuid>
+                            <uuid>2161c7b88a2a47e6853405ad990c5ca7</uuid>
                             <name>ifInNUcastPkts.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.12.{#SNMPINDEX}</snmp_oid>
@@ -1105,7 +1105,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The number of packets, delivered by this sub-layer to a higher (sub-)layer, which were addressed to a multicast or broadcast address at this sub-layer. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime. This object is deprecated in favour of ifInMulticastPkts and ifInBroadcastPkts.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>b8dcfae1df6c4292ba2539a4e82257be</uuid>
+                            <uuid>710e8119c7cc4a428263a3acc74aad8a</uuid>
                             <name>ifInDiscards.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.13.{#SNMPINDEX}</snmp_oid>
@@ -1115,7 +1115,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The number of inbound packets which were chosen to be discarded even though no errors had been detected to prevent their being deliverable to a higher-layer protocol. One possible reason for discarding such a packet could be to free up buffer space. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>846665f2a818469dafd04a50e3aa602e</uuid>
+                            <uuid>0cb35afce7194b96b7f8d38b28fd8b98</uuid>
                             <name>ifInErrors.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.14.{#SNMPINDEX}</snmp_oid>
@@ -1125,7 +1125,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>For packet-oriented interfaces, the number of inbound packets that contained errors preventing them from being deliverable to a higher-layer protocol. For character- oriented or fixed-length interfaces, the number of inbound transmission units that contained errors preventing them from being deliverable to a higher-layer protocol. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>2260b563022348d2af8a51070342837e</uuid>
+                            <uuid>b728c2f4a9984f9884ade49e823acb0e</uuid>
                             <name>ifInUnknownProtos.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.15.{#SNMPINDEX}</snmp_oid>
@@ -1135,7 +1135,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>For packet-oriented interfaces, the number of packets received via the interface which were discarded because of an unknown or unsupported protocol. For character-oriented or fixed-length interfaces that support protocol multiplexing the number of transmission units received via the interface which were discarded because of an unknown or unsupported protocol. For any interface that does not support protocol multiplexing, this counter will always be 0. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>40ed253a463246c3be1b784361b47a16</uuid>
+                            <uuid>cd24ac7690094a4eaa2d824118e939ca</uuid>
                             <name>ifOutOctets.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.16.{#SNMPINDEX}</snmp_oid>
@@ -1145,7 +1145,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The total number of octets transmitted out of the interface, including framing characters. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>a39465e328e14262a491a9ff72cf3814</uuid>
+                            <uuid>fa36b55f93ea43728ad3f3dbaf9ae0a9</uuid>
                             <name>ifOutUcastPkts.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.17.{#SNMPINDEX}</snmp_oid>
@@ -1155,7 +1155,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The total number of packets that higher-level protocols requested be transmitted, and which were not addressed to a multicast or broadcast address at this sub-layer, including those that were discarded or not sent. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>2939b52a54624d37bd0d1b1313d73905</uuid>
+                            <uuid>e93233fb42a848099fcbe8557639fb5e</uuid>
                             <name>ifOutNUcastPkts.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.18.{#SNMPINDEX}</snmp_oid>
@@ -1165,7 +1165,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The total number of packets that higher-level protocols requested be transmitted, and which were addressed to a multicast or broadcast address at this sub-layer, including those that were discarded or not sent. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime. This object is deprecated in favour of ifOutMulticastPkts and ifOutBroadcastPkts.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>b309acf28301407b8d0ff059ab2618b4</uuid>
+                            <uuid>99c4e3c14ec548febdfde616cfe6fd33</uuid>
                             <name>ifOutDiscards.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.19.{#SNMPINDEX}</snmp_oid>
@@ -1175,7 +1175,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The number of outbound packets which were chosen to be discarded even though no errors had been detected to prevent their being transmitted. One possible reason for discarding such a packet could be to free up buffer space. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>5f2549510adc4a5f960de1b75d08f14f</uuid>
+                            <uuid>91be13db1d98419dbb77f18296c4d1d5</uuid>
                             <name>ifOutErrors.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.20.{#SNMPINDEX}</snmp_oid>
@@ -1185,7 +1185,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>For packet-oriented interfaces, the number of outbound packets that could not be transmitted because of errors. For character-oriented or fixed-length interfaces, the number of outbound transmission units that could not be transmitted because of errors. Discontinuities in the value of this counter can occur at re-initialization of the management system, and at other times as indicated by the value of ifCounterDiscontinuityTime.</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>3d8f5179e6df4b07a63cec30a2e78b9c</uuid>
+                            <uuid>8901cbe2816f42309b539a7af33cf12f</uuid>
                             <name>ifOutQLen.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.21.{#SNMPINDEX}</snmp_oid>
@@ -1195,7 +1195,7 @@ sysUpTimeInstance OBJECT-TYPE
                             <description>The length of the output packet queue (in packets).</description>                           
                         </item_prototype>
                         <item_prototype>
-                            <uuid>30ae00e7f63f45a0b37877a4c0fd6dc8</uuid>
+                            <uuid>d33e01623db647d8baaec4b8cf5280a9</uuid>
                             <name>ifSpecific.{#SNMPINDEX}</name>
                             <type>SNMP_AGENT</type>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.22.{#SNMPINDEX}</snmp_oid>

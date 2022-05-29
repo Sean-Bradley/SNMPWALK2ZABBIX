@@ -125,7 +125,7 @@ Note that the generated template is not perfect. It is up to you if you want to 
 
 Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
 
-After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name and description of the item and discovery rule. And hopefully that will make the process of decided if you want it enabled or not, a little easier.
+After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name and description of the item and discovery rule. And hopefully that will make the process of deciding if you want it enabled or not, a little easier.
 
 When you assign your new template to a host in Zabbix. Make sure that your Zabbix server, or Zabbix proxy (if monitored by proxy) can also access your SNMP host/device. I have many Zabbix and SNMP tutorials at https://sbcode.net/zabbix/setup-snmp-host/.
 
@@ -137,6 +137,12 @@ If you are interested in learning Zabbix to a high level, then I run courses on 
 
 Sean
 
-## Videos
+## Video Tutorials
+
+### Convert SNMPWALK to Zabbix Template
+
+[![Convert SNMPWALK to Zabbix Template](https://img.youtube.com/vi/YFqJ6d5mICg/0.jpg)](https://www.youtube.com/watch?v=YFqJ6d5mICg&list=PLKWUX7aMnlEJhX49I64G3A-v8pFTduome)
+
+### Configure an SNMPv3 Host in Zabbix 6 LTS
 
 [![Configure an SNMPv3 Host in Zabbix 6 LTS](https://img.youtube.com/vi/l5kUSHDykoA/0.jpg)](https://www.youtube.com/watch?v=l5kUSHDykoA&list=PLKWUX7aMnlEJhX49I64G3A-v8pFTduome)
