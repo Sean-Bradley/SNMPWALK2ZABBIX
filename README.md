@@ -123,8 +123,6 @@ Here are the discovery rules that it created with their item prototypes.
 
 Note that the generated template is not perfect. It is up to you if you want to make it better. The items and discovery rules are created as **DISABLED** by default. This is to minimize the possibility that assigning this template to a host won't overload your Zabbix server/proxy or your SNMP host/device.
 
-Automatically creating templates is NOT an exact science. Who knows what the output will be. If it was easy, someone would have already written the perfect solution for you.
-
 After importing the template, you should review which items and discovery rules that you want enabled. If a MIB description can be found for an OID, then it will use it in the name and description of the item and discovery rule. And hopefully that will make the process of deciding if you want it enabled or not, a little easier.
 
 When you assign your new template to a host in Zabbix. Make sure that your Zabbix server, or Zabbix proxy (if monitored by proxy) can also access your SNMP host/device. I have many Zabbix and SNMP tutorials at https://sbcode.net/zabbix/setup-snmp-host/.
@@ -146,3 +144,7 @@ Sean
 ### Configure an SNMPv3 Host in Zabbix 6 LTS
 
 [![Configure an SNMPv3 Host in Zabbix 6 LTS](https://img.youtube.com/vi/l5kUSHDykoA/0.jpg)](https://www.youtube.com/watch?v=l5kUSHDykoA&list=PLKWUX7aMnlEJhX49I64G3A-v8pFTduome)
+
+### Zabbix 6 Application and Network Monitoring Course
+
+[![Zabbix 6 Application and Network Monitoring Course](https://img.youtube.com/vi/4xupXFurK7g/0.jpg)](https://www.youtube.com/watch?v=4xupXFurK7g&list=PLKWUX7aMnlEJhX49I64G3A-v8pFTduome)
