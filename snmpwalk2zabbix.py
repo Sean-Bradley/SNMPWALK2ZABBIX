@@ -171,7 +171,10 @@ else:
                                     print("ITEM_PROTOTYPE -> " + name + " -> " + fullOidStringParts[10] + " (" + (
                                         "NUMERIC" if data_type is None else data_type) + ")")
                             else:
-                                name = mib.split("::")[1]
+                                if "::" in mib:
+                                    name = mib.split("::")[1]
+                                else:
+                                    name = mib
                                 name = name.split(".")[0]
                                 key = mib.replace("::", ".")
                                 item = [name, mib, key, oid_kvp[0].strip(),
